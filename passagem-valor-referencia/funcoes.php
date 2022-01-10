@@ -35,14 +35,14 @@ extensão pois resolveu compilar o PHP, como recomendei, e não quer recompilar,
 instalada no PHP.
 */
 
-// passagem de variavel por parametro
+// passagem de variavel "por parametro (por valor)"
 
 /* function titularComLetrasMaiusculas(array $conta)
 {
     $conta['titular'] = mb_strtoupper($conta['titular']);
 } */
 
-// passagem de variavel por referencia, eh apenas acrescentado um "&" antes da variavel
+// passagem de variavel "por referencia", eh apenas acrescentado um "&" antes da variavel
 
 function titularComLetrasMaiusculas(array &$conta)
 {
